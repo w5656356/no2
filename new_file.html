@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="lib/jquery/jquery-3.2.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/arttemplate/template-native.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="pre_lay_1_left_head">
+							
+		</div>
+		<script type="text/html" id="pre_lay_1_left_temp">
+			<ul>
+			<% for(var i = 0; i < len ; i++) { %>
+			<li class=""><%= liname[i] %></li>
+			<% } %>
+			</ul>
+		</script>	
+		<script type="text/javascript">
+			var pre_list1 = {
+			len :  5,
+			liname : ["疯狂抢购","整箱囤货","爆款精选","口粮聚惠","大牌特卖"]
+			};
+			console.log(pre_list1);
+			
+			var data1 = template("pre_lay_1_left_temp",pre_list1);
+			console.log(data1)
+			$(data1).appendTo(".pre_lay_1_left_head")
+		</script>
+	</body>
+</html>

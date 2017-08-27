@@ -1,4 +1,221 @@
-.head_big{
+.header p,.header a,.header ul,.header li{
+	font-family: Arial,Helvetica,sans-serif,"宋体";
+    text-align: left;
+    word-break: break-all;
+	margin-right: 6px;
+    float: left;
+    line-height: 26px;
+    color: #999;
+    text-decoration: none;
+}
+.head_big,.head_top,.head_mid,.head_bottom{
+    width: 100%;
+}
+
+.head_top{
+    background: #f2f2f2;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+    z-index: 980;
+}
+.head_top_inner{
+    height: 26px;
+    line-height: 26px;
+    margin: 0 auto;
+    position: relative;
+    width: 1200px;
+}
+.head_top_inner_left{
+    overflow: hidden;
+    height: 26px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 370px; 
+}
+.head_top_inner_right{
+    height: 26px;
+    float: right;
+}
+.head_top_inner_right .head_top_inner_right_ul div{
+	width: 99px;
+	margin: 0 10px;
+	position: relative;
+	text-align: center;
+}
+.head_top_inner_right .head_top_inner_right_ul div i{
+	position: absolute;
+	left: 35%;
+	
+}
+.head_top_inner_right_ul li{
+	float: left;
+	margin: 0 10px;
+	text-align: center;
+	width: 99px;
+}
+.head_top_inner_right_ul li div a{
+	float: none;
+	text-align: center;
+}
+.head_top_inner_right_ul li i{
+	width: 12px;
+    height: 12px;
+    margin: 7px 5px 0 0;
+    overflow: hidden;
+}
+.head_top_inner_right_ul li ul{
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+.head_top_inner_right_ul li ul li{
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+.head_top_inner_right_ul li ul li a{
+	float: none;
+}
+.head_mid{
+	height: 90px;
+}
+.head_mid a{
 	width: 100%;
-	height: 245px;
+	display: block;
+	height: 90px;
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+	background: url(../images/header/ad/header_ad.jpg) no-repeat top center;
+}
+.head_bottom_inner{
+    width: 1200px;
+    height: 125px;
+    margin: 0 auto;
+}
+.head_bottom_inner div{
+	height: 100%;
+	float: left;
+}
+.head_bottom_inner_div1{
+	width: 150px;
+}
+.head_bottom_inner_div2{
+	width: 110px;
+}
+.head_bottom_inner_div3{
+	width: 550px;
+}
+.head_bottom_inner .head_bottom_inner_div4{
+	width: 363px;
+    float: right;
+    height: 64px;
+    margin: 27px 0 0 0;
+    display: inline-block;
+    background:url(../images/header/pic.png) no-repeat top left;
+}
+.head_bottom_inner_div1 .logo{
+	width: 135px;
+	height: 65px;
+	background-color:firebrick;
+	border-radius: 10px;
+	position: relative;
+}
+.head_bottom_inner_div1 a,.head_bottom_inner_div2 a,
+.head_bottom_inner_div3_inner{
+	margin-top: 30px;
+}
+.head_bottom_inner_div3 .head_bottom_inner_div3_inner{
+	width: 95%;
+	height: 65px;
+	margin-left: 5%;
+}
+.head_bottom_inner_div3_inner .head_bottom_inner_div3_inner_top{
+    height: 32px;
+    border: 3px solid #c00;
+    position: relative;
+    z-index: 222;
+    width: 99%;
+}
+.head_bottom_inner_div3_left{
+    height: 22px;
+    line-height: 22px;
+    padding: 5px;
+    border: 0 none;
+    color: #666;
+    float: left;
+    width: 420px;
+}
+.head_bottom_inner_div3_right{
+    width: 85px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border: 0;
+    font-size: 16px;
+    color: #fff;
+    background: #c00;
+    cursor: pointer;
+    font-family: "微软雅黑";
+    float: right;
+}
+.head_bottom_inner_div3_inner .head_bottom_inner_div3_inner_bottom{
+    height: 18px;
+    overflow: hidden;
+    padding-top: 5px;
+    width: 100%;
+}
+.head_bottom_inner_div3_inner_bottom p{
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    position: relative;
+    left: -8px;
+    z-index: 1;
+}
+.head_bottom_inner_div3_inner_bottom a{
+    float: left;
+    display: inline-block;
+    color: #999;
+    padding: 0 8px;
+    height: 18px;
+    position: relative;
+    line-height: 18px;
+}
+.head_bottom_inner_div3_inner_bottom span{
+    display: block;
+    height: 12px;
+    width: 0;
+    font-size: 0;
+    line-height: 0;
+    border-left: 1px solid #999;
+    position: absolute;
+    left: -1px;
+    top: 3px;
+}
+.logo .logo1{
+	position: absolute;
+	width: 80%;
+	height: 60%;
+	color: white;
+	font-size: 32px;
+	font-family: "楷体";
+	font-weight: 800;
+	top: 13px;
+	left: 17px;
+}
+.logo .logo2{
+	position: absolute;
+	width: 80%;
+	height: 10%;
+	color: white;
+	font-size: 10px;
+	font-family: "楷体";
+	font-weight: 400;
+	bottom: 19px;
+	left: 15px;
+}
+.head_big{
+    height: 245px;
 }
