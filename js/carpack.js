@@ -3,6 +3,7 @@ define(["jquery"],function(){
 	carou($("#container"),$("#container ul"),$("#container ul li"),$("#pages"),true,true,$("#prev"),$("#next"))
 	carou($("#container2"),$("#container2 ul"),$("#container2 ul li"),$("#pages2"),false,false)
 	carou($("#container3"),$("#container3 ul"),$("#container3 ul li"),$("#pages3"),false,false)
+	carou($("#container5"),$("#container5 ul"),$("#container5 ul li"),$("#pages5"),false,false)
 	function carou(container,ul,li,pages,boool,neednum,prev,next){
 		var lis = li, 
 			len = lis.length,

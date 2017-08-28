@@ -4,9 +4,14 @@ require.config({
 	paths : {
 		"jquery" : "lib/jquery/jquery-3.2.1",
 		"cookie" : "lib/jquery_plugins/jquery.cookie",
-		"temp" : "lib/arttemplate/template-native",
+		"template" : "lib/arttemplate/template-native",
 		"load" : "js/load_header_footer",
-		"template" : "js/template",
 		"carpack" : "js/carpack" 
+	},
+	
+	shim : {
+		"template" :{
+			exports : "template"
+		}
 	}
 })
