@@ -3,7 +3,10 @@ define(["jquery","cookie"],function($){
 		type : "get",
 		url : "/html/include/header.html",
 		success : function(data){
+			$.cookie.json = true
 			var _username = $.cookie("loginUser")
+			console.log(_username)
+			console.log($.cookie("loginUser"))
 			if(_username){	
 				$(data).filter(".login_reg")
 					  .html(`欢迎您:${_username}`).end()
@@ -27,6 +30,14 @@ define(["jquery","cookie"],function($){
 				})
 				});
 			})
+			}
+	});
+	$.ajax({
+		type : "get",
+		url : "/html/include/footer.html",
+		success : function(data2){
+				console.log("hhhhhhh")
+				$(data2).appendTo(".footer")
 		}
 	});
 })

@@ -1,0 +1,18 @@
+[
+	{
+		"_username" : "向冰瑶很帅",
+		"_password" : "right"
+	},
+	{
+		"_username" : "小明老师也很帅",
+		"_password" : "right"
+	},
+	{
+		"_username" : "小明老师说周六放假",
+		"_password" : "wrong"
+	},
+	{
+		"_username" : "123",
+		"_password" : "321"
+	}
+]

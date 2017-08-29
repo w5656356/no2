@@ -50,17 +50,22 @@ require(["config"],function(){
 					clearInterval(timer);
 			}, 1000);
 		}
-		
-		
-		
-		
-		
-		
-		
+
 		// 模板
-		var html = template("pre_lay_1_left_temp", {
-			liname : ["a", "b", "c"]
+ 
+		$.ajax({
+		type : "get",
+		url : "/mock/mock.json",
+		dataType : "json",
+		success : function(data){
+			var html = template("pre_lay_1_left_temp", {datas : data});
+			$(".pre_lay_1_left_body").append(html);
+		}
 		});
-		$(html).appendTo(".demo_temp")
+		
+		/*$.getJSON("/mock/mock.json", function(data){
+			var html = template("json_demo", {datas : data});
+			$(".json_demo_html").append(html);
+		});*/
 	})
 })

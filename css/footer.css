@@ -1,0 +1,247 @@
+.footer_inner1{
+	width: 100%;
+	background: #333;
+}
+.footer_inner1_top{
+	margin: 0 auto;
+	height: 84px;
+	border-bottom: 1px solid #494949;
+	width: 1200px;
+}
+.footer_inner1_top_left{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	padding: 22px 0;
+	font-family: "微软雅黑";
+}
+.footer_inner1_top_left i{
+	width: 40px;
+	height: 40px;
+	background-position: -144px -22px;
+	margin-right: 18px;
+	display: inline-block;
+    float: left;
+}
+.footer_inner1_top_left b{
+	font-size: 24px;
+    color: #c00;
+    margin-right: 25px;
+}
+.footer_inner1_top_left span{
+	font-size: 14px;
+    color: #fff;
+    margin-right: 8px;
+}
+    
+    
+.spr2{
+	background:url(../images/footer/footer_spr.png);
+}
+.footer_inner1_top_right{
+	float: right;
+	height: 32px;
+	padding: 26px 0;
+}
+.footer_inner1_top_right .first_div{
+	float: left;
+    line-height: 32px;
+    color: #fff;
+    font-family: "微软雅黑";
+    padding-right: 10px;
+}
+.footer_inner1_top_right .second_div{
+	float: left;
+	width: 240px;
+	height: 30px;
+	border: 1px solid #494949;
+	position: relative;
+	z-index: 99;
+}
+.footer_inner1_top_right .second_div input{
+	width: 190px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 6px;
+	background: 0;
+	border: 0;
+	float: left;
+	color: #fff;
+	outline: 0;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+}
+.footer_inner1_top_right .second_div span{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	color: #999;
+	position: absolute;
+	left: 6px;
+	top: 0;
+}
+.footer_inner1_top_right .second_div i{
+	display: inline-block;
+	width: 22px;
+	height: 18px;
+	background-position: -133px 0;
+	margin: 6px 0 0 10px;
+	cursor: pointer;
+	float: left;
+}
+.footer_inner1_bot{
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 30px 0 60px;
+    width: 1200px;
+}
+.footer_inner1_bot li{
+	width: 158px;
+    float: left;
+    display: inline;
+    margin-right: 15px;
+}
+.footer_inner1_bot li h3{
+	font-weight: normal;
+    height: 26px;
+    line-height: 26px;
+    padding: 5px 0;
+}
+.footer_inner1_bot li h3 i{
+	background-position: 0 -131px;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin-right: 9px;
+    float: left;
+    line-height: 26px;  
+}
+.footer_inner1_bot ul .no1{
+	background-position: -30px -131px;
+}
+.footer_inner1_bot ul .no2{
+	background-position: -60px -131px;
+}
+.footer_inner1_bot ul .no3{
+	background-position: -90px -131px;
+}
+.footer_inner1_bot ul .no4{
+	background-position: -120px -131px;
+}
+.footer_inner1_bot ul .no5{
+	background-position: -150px -131px;
+}
+.footer_inner1_bot li h3 span{
+	display: inline-block;
+	width: 123px;
+	font-size: 14px;
+	color: #fff;
+	font-family: "微软雅黑";
+	float: left;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.footer_inner1_bot li p{
+	height: 26px;
+    line-height: 26px;
+    padding-left: 35px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 123px;	
+}
+
+.footer_inner1_bot .special{
+    margin-right: 0;
+    width: 158px;
+    float: left;
+	display: inline;
+}
+.footer_inner1_bot .special .special_div1{
+	width: 130px;
+	height: 28px;
+	line-height: 28px;
+	padding: 5px 0 13px;
+	position: relative;
+}
+.footer_inner1_bot .special_div1_inner,.footer_inner1_bot .special_div2_inner{
+	line-height: 28px;
+	padding: 0;
+	margin: 0;
+    color: #fff;
+    font-family: "微软雅黑";
+	float: left;
+}
+.footer_inner1_bot .special i{
+	display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin-right: 9px;
+    float: left;
+    cursor: pointer;
+}
+.footer_inner1_bot .special_div1_inner i{
+	background-position: -140px -74px;
+} 
+.footer_inner1_bot .special_div2_inner i{
+	background-position: -103px -74px;
+} 
+.footer_inner1_bot .special .special_div2{
+	width: 130px;
+	height: 28px;
+	line-height: 28px;
+	padding: 5px 0 13px;
+	position: relative;
+}
+.footer_inner2{
+	width: 100%;
+	background: #f9f9f9;
+}
+.footer_1{
+	height: 51px;
+	color: #7c7c62;
+	font-size: 11px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.footer_1 a{
+	padding: 0 5px;
+}
+.footer_2{
+	height: 72px;
+	color: #7c7c62;
+	font-size: 11px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer_3{
+	height: 87px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+.footer_3 .mid{
+	width: 441px;
+	height: 47px;
+	margin: 0 auto;
+}
+.footer_3 .mid img{
+	float: left;
+	margin-left: 12px;
+}
+
+
+    
+
+    
+
+
+    
+
+

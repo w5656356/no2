@@ -1,5 +1,5 @@
-//封装轮播
 define(["jquery"],function(){ 
+	//封装轮播
 	carou($("#container"),$("#container ul"),$("#container ul li"),$("#pages"),true,true,$("#prev"),$("#next"))
 	carou($("#container2"),$("#container2 ul"),$("#container2 ul li"),$("#pages2"),false,false)
 	carou($("#container3"),$("#container3 ul"),$("#container3 ul li"),$("#pages3"),false,false)
@@ -37,7 +37,7 @@ define(["jquery"],function(){
 						nextIndex = len -1
 					uls.css("left",-(len-2)*liWidth + "px")
 					}
-				
+				 
 				})
 				var cir;
 				if(nextIndex === 0){
@@ -80,8 +80,27 @@ define(["jquery"],function(){
 				next.click(function(){
 					move()
 				})
-			}
-			
+			}	
 	}
+	//淡入淡出选项卡 
+	select666($(".pre_lay_1_left_head li"),$(".pre_lay_1_left_body_inner"), function(lis,i){
+		lis.eq(i).attr("id","fire")
+		lis.eq(i).siblings("li").removeAttr("id")
+	})
+	function select666(li,div,fn){
+		var lis = li, 
+			len = lis.length;
+			console.log(len)
+			div.eq(0).show().siblings("div").hide()
+			for(let i = 0 ; i < len ; i++){
+				lis.eq(i).mouseenter(function(){
+					/*lis.eq(i).attr("id","fire")
+					lis.eq(i).siblings("li").removeAttr("id")*/
+					fn && fn(lis,i);
+					div.eq(i).show().siblings("div").hide()
+				})
+			}
+	}
+	
 })
 			
