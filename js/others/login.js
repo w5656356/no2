@@ -50,7 +50,7 @@ require(["../config"],function(){
 					for(var i = 0, len = data.length ; i < len ; i++){
 						if(data[i]._username === uname && data[i]._password === pword){
 							window.location.replace("/index.html");
-							$.cookie("loginUser",uname,{expires:1});
+							$.cookie("loginUser",uname,{expires:1,path:"/"});
 //							break;
 						}	
 					}

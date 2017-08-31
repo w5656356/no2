@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Document</title>
+	<script src="/lib/require/require.js" type="text/javascript" data-main="../js/list" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="/css/list.css"/>
+	<link rel="stylesheet" href="/css/header.css" />
+	<link rel="stylesheet" href="/css/footer.css" />
+</head>
+<body>
+	<div class="header">
+		
+	</div>
+	<div class="clear">
+		
+	</div>
+	<div class="main">
+		
+	</div>
+	<div class="clear">
+		
+	</div>
+	<div class="footer">
+		
+	</div>
+	<script type="text/html" id="list">		
+		<div class="main_inner">
+			<div class="main_inner_left">
+				<% var num = datas[xxx].left.num %>
+				<% for(var i = 0 ; i < num ; i++){%>
+				<div class="main_inner_left_floor">
+					<h3><%= datas[xxx].left.pro.head[i] %></h3>
+					<div class="list">
+						<ul>
+							<% for(var j = 0 ; j < 3 ; j++){%>
+							<li>
+								<a href="<%= datas[xxx].left.pro.title_href %>" class="img">
+									<img src="<%= datas[xxx].left.pro.imgSRC %>" alt="" />
+								</a>
+								<p class="price"><%= datas[xxx].left.pro.price_big %></p>
+								<a href="" class="small"><%= datas[xxx].left.pro.title %></a>
+							</li>
+							<%}%>
+						</ul>
+					</div>
+				</div>
+				<%}%>
+			</div>
+			<div class="main_inner_right">
+				<div class="main_inner_right_floor_1">
+					<div class="line">
+						
+					</div>
+					<div class="main_inner_right_floor_1_inner">
+						<i class="i1"></i>
+						<a href="/index.html" class="all_a">全部</a>
+						<i class="dayu"></i>
+						<a href="" class="all_a" style="color: red;">
+							<%= datas[xxx].left.pro.easy %>
+						</a>
+						<i class="dayu"></i>
+					</div>
+				</div>
+				<div class="main_inner_right_floor_6">
+					<ul> 
+						<% for(var x = 0 ; x < 36 ; x++){%>
+						<li>
+							<div class="shadow">
+								<div class="shadow_inner">
+								
+								</div>
+							</div>
+							
+							<div class="content">
+			
+								<div class="img_box">
+									<a href="<%= datas[xxx].left.pro.title_href %>">
+										<img class="need_imgSRC" src="<%= datas[xxx].left.pro.imgSRC_big %>" alt="" />
+									</a>
+								</div>
+								<div class="price_area">
+									<p class="p1">
+									¥
+										<span class="need_price"><%= datas[xxx].left.pro.price_big %></span>
+									</p>
+									<p class="p2">
+										<span><%= datas[xxx].left.pro.price_big_culb %></span>
+										<i></i>
+									</p>
+								</div>
+								<a href="" class="super_name" >
+									<%= datas[xxx].left.pro.title_big %>
+									<span class="no_ne">no.<%= datas[xxx].left.pro.id %></span>
+									<span>
+										<%= datas[xxx].left.pro.title_sup %>
+									</span>
+								</a>
+								<div class="cart_area">
+									<span>
+										<input type="" class="need_amount" id="" value="1" />
+									</span>
+									<div class="more_less">
+										<a href="javascript:" class="increase"></a>
+										<a href="javascript:" class="decrease"></a>
+									</div>
+									<a href="javascript:" class="cart">
+										加入购物车
+									</a>
+								</div>
+							</div>
+						</li>
+						<%}%>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</script>
+	
+</body>
+</html>

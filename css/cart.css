@@ -1,0 +1,218 @@
+.pro_list{
+    width: 998px;
+    height: auto;
+    border-left: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    border-top: 2px solid #b7b7b7;
+    margin: 0 auto;
+}
+.pro_list table{
+	width: 998px;	
+}
+.pro_list table{
+	width: 998px;	
+}
+.pro_list table tbody{
+	display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.pro_list tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.pro_list .td_check{
+    width: 58px;
+    text-align: left;
+    padding-left: 10px;
+}
+.pro_list .td_name{
+	width: 366px;
+    text-align: left;
+    height: 86px;
+}
+.pro_list .td_price{
+	width: 102px;
+    font-family: "微软雅黑";
+    height: 86px;
+    text-align: center;
+    FONT-SIZE: 12px;
+}
+.pro_list .td_gold{
+	width: 102px;
+    height: 86px;
+    text-align: center;
+    FONT-SIZE: 12px;
+}
+.pro_list .td_amount{
+	width: 120px;
+    height: 86px;
+    text-align: center;
+    FONT-SIZE: 12px;
+}
+.pro_list .td_total{
+	width: 120px;
+    font-weight: bold;
+    color: #e6393d;
+    font-family: "微软雅黑";
+    height: 86px;
+    text-align: center;
+}
+.pro_list .td_del{
+    width: 120px;
+    height: 86px;
+    text-align: center;
+    FONT-SIZE: 12px;
+}
+.last_price{
+    height: 46px;
+    line-height: 46px;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    width: 998px;
+    margin: 0 auto;
+}
+.more_less{
+    margin: auto;
+    width: 72px;
+    border: 1px solid #ccc;
+    height: 20px;
+    clear: both;
+}
+.left{
+    float: left;
+    height: 46px;
+    line-height: 46px;
+    padding-left: 10px;
+}
+.right{
+    float: right;
+    height: 46px;
+    line-height: 46px;
+}
+.confirm{
+	float: right;
+    height: 48px;
+    margin: -1px -1px 0 0;
+    position: relative;
+}
+.confirm a{
+    display: inline-block;
+    height: 48px;
+    line-height: 48px;
+    width: 100px;
+    text-align: center;
+    color: #fff;
+    background: #e2010f;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+}
+.money{
+    float: right;
+    height: 46px;
+    margin-right: 25px;
+    font-family: "Microsoft YaHei";
+}
+.money b{
+	position: relative;
+    top: -2px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #333;
+}
+.money span{
+	color: #cf010e;
+    font-size: 18px;
+    font-weight: bold;
+}
+    
+  
+.total_price2{
+	float: right;
+    height: 46px;
+    margin-right: 25px;
+    font-family: "Microsoft YaHei";
+}
+.pic_{
+    width: 54px;
+    height: 54px;
+    float: left;
+    margin-left: 10px;
+}
+.pic_ img{
+	width: 54px;
+	height: 54px;
+}
+.name_{
+    height: 52px;
+    float: left;
+    padding-left: 10px;
+    width: 280px;
+    line-height: 52px;
+}
+.pro_list .th tr{
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    border-top: 1px solid #e4e4e4;
+    border-left: 2px solid #e6393d;
+    background: #fff5f5;
+}
+.pro_list .th td{
+	height: 30px;
+    line-height: 30px;
+}
+
+.increase{
+    background-position: -30px -71px !important;
+    cursor: pointer;
+    float: left;
+    height: 20px;
+    width: 21px;
+    display: inline-block;
+}
+.hua{
+	background: url(../images/cart/huabanzi3.png) no-repeat;
+}
+
+.decrease{
+	background-position: 0 -43px;
+	
+	cursor: pointer;
+	float: left;
+	height: 20px;
+	width: 21px;
+	display: inline-block;
+}
+.snum{
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	width: 30px;
+	display: inline-block;
+	border: 0px;
+	font-size: 15px;
+	color: #333;
+	float: left;
+}
+.th .td_check input{
+    margin: 10px 8px 0 0;
+    float: left;
+}
+.th .td_check span{
+	float: left;
+}
+
+    
+    
+
+    
+    
+    
+   
+    
+   

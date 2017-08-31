@@ -1,0 +1,179 @@
+.header,.footer,.main{
+	background: white;
+}
+body{
+	background:#e6e6e6;
+	font-family: 'Open Sans', sans-serif;
+} 
+body a{
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+ ul{
+	padding: 0;
+	margin: 0;
+}
+h1,h2,h3,h4,h5,h6,label,p{
+	margin:0;	
+}
+.line{
+	background:#d2232a;
+	width:50%;
+	position: absolute;
+	right: 0;
+	height:2px;
+	display:block;
+	bottom: 300px;
+}
+.main{
+	width: 100%;
+	margin-top: 0;
+	position: relative;
+	top: -50px;
+	height: 800px;
+	z-index: 0;
+	
+}
+.small_main{
+	width: 50%;
+	float: left;
+	
+}
+.small_main2{
+	width: 50%;
+	float: right;
+	padding-top: 200px;
+}
+.small_main2 h1{
+    width: 528px;
+    font-size: 24px;
+    min-height: 24px;
+    line-height: 24px;
+}
+.small_main2 p{
+	margin-top: 24px;
+    width: 587px;
+    min-height: 18px;
+    line-height: 18px;
+    font-size: 18px;
+    color: #f60;
+    font-family: "Microsoft YaHei";
+    width: 528px;
+    color: #c33;
+}
+.small_main2 .nim{
+	margin-top: 24px;
+    display: block;
+    height: 30px;
+    color: #c33;
+    line-height: 36px;
+    font-size: 36px;
+    font-family: "Microsoft YaHei";
+    font-weight: 900;
+}
+.last1_money{
+	margin-top: 24px;
+    font-size: 26px;
+    color: #252525;
+}
+.last1_money i{
+	background: url(../images/index/temp/club.png) no-repeat;
+	width: 40px;
+    height: 14px;
+    overflow: hidden;
+    margin-left: 3px;
+    display: inline-block;
+}
+.atoc a{
+	display: inline-block;
+    width: 166px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    margin-right: 12px;
+    border: 1px solid #fcc;
+    background: #c33;
+    color: #fff;
+}
+.how_many{
+    width: 528px;
+    line-height: 30px;
+    height: 30px;
+    margin-top: 25px;
+    
+}
+.more_less{
+    float: left;
+    width: 464px;
+}
+.give{
+    float: left;
+    color: #c33;
+    margin-left: 12px;
+    font: 16px/30px "微软雅黑";
+}
+.cha{
+    float: left;
+    width: 36px;
+    padding-right: 28px;
+    font: 16px/30px "微软雅黑";
+}
+.in_de{
+    float: left;
+    width: 66px;
+    height: 30px;
+    position: relative;
+}
+.in_de input{
+	float: none;
+    width: 26px;
+    height: 28px;
+    line-height: 28px;
+    color: #666;
+    font-family: "Microsoft YaHei";
+    padding: 0 8px;
+    border: 1px solid #999;
+}
+.increase{
+    width: 17px;
+    height: 11px;
+    position: absolute;
+    right: 0;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    display: block;
+    background: url(../images/list/huabanzi2.png);
+    background-position: -70px -25px;
+    top: 0;
+    float: none;
+}
+.decrease{
+    width: 17px;
+    height: 11px;
+    position: absolute;
+    right: 0;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    display: block;
+    background: url(../images/list/huabanzi2.png);
+    background-position: -70px -41px;
+    top: 17px;
+    float: none;
+}
+.main{
+	background: white;
+} 
+.atoc{
+	margin-top: 50px;
+	margin-left: 33%;
+}  
+.need_amount{
+	text-align: center;
+} 
+    
+

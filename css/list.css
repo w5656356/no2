@@ -1,0 +1,301 @@
+ul,li{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.clear{
+	clear: both;
+	font-size: 0;
+	line-height: 0;
+	height: 0;
+}
+.main{
+	width: 100%;
+}
+.list .img{
+	display: block;
+	width: 160px;
+	height: 160px;
+	margin: 10px auto;
+	overflow: hidden;
+}
+.price{
+	color: #e90012;
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 10px;
+	width: 176px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 18px;
+}
+.list .small{
+	display: block;
+	width: 176px;
+	margin: 0 auto 5px;
+	height: 36px;
+	color: #333;
+	overflow: hidden;
+}
+.main_inner{
+	margin: 0 auto;
+	line-height: 1.5;
+	font-family: "Microsoft Yahei";
+	margin-top: 10px;
+	width: 1200px;
+}
+.main_inner_left{
+	width: 200px;
+	height: auto;
+	margin-right: 10px;
+	overflow: hidden;
+	float: left;
+	display: inline-block;
+}
+.main_inner_left_floor{
+	width: 198px;
+	height: auto;
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.main_inner_left_floor h3{
+	color: #666;
+	font-size: 14px;
+	padding: 10px 7px;
+	border-bottom: 1px solid #ddd;
+	background-color: #fafafa;
+	font-weight: bold;
+}
+.main_inner_left_floor li{
+	width: 198px;
+	height: 267px;
+	overflow: hidden;
+}
+.main_inner_left_floor li * {
+	vertical-align: middle;
+}
+i{
+	vertical-align: middle;
+}    
+.p2 i{
+    margin: 0 4px;
+    line-height: 20px;
+    float: none;
+}
+.main_inner_right{
+	width: 990px;
+	height: auto;
+	float: right;
+	display: inline-block;
+}
+.main_inner_right_floor_1{
+	height: 35px;
+	margin-bottom: 6px;
+	overflow: hidden;
+}
+.line{
+	height: 2px;
+	width: 990px;
+	background-color: #c41921;
+	font-size: 0;
+}
+.main_inner_right_floor_1_inner{
+    width: 990px;
+    height: 38px;
+    line-height: 33px;
+    overflow: hidden;
+}
+.main_inner_right_floor_1_inner .i1{
+	width: 11px;
+    height: 11px;
+    background: url(../images/list/huabanzi.png) no-repeat 0 0;
+    margin: 11px 13px auto 17px;
+    line-height: 33px;
+    font-style: normal;
+    float: left;
+    display: inline-block;
+}
+.main_inner_right_floor_1_inner .all_a{
+    color: #333;
+	float: left;
+    display: inline-block;
+}
+.dayu{
+	width: 8px;
+	height: 15px;
+	background: url(../images/list/huabanzi.png) no-repeat -18px 0;
+	margin: 9px 20px auto;
+	float: left;
+}
+    
+.main_inner_right_floor_6{
+    width: 988px;
+	border: 1px solid #ddd;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	top: 0px !important;
+	z-index: 58;
+	height: auto;
+	display: block;
+	text-align: left;
+    word-break: break-all;
+}
+.main_inner_right_floor_6 ul li{
+	width: 247px;
+	height: 365px;
+	position: relative;
+	top: 0;
+	left: 0;
+	float: left;
+	display: inline-block;
+	z-index: 15p;
+}
+.main_inner_right_floor_6 ul li:hover{
+	z-index: 18;
+}
+.main_inner_right_floor_6 ul li:hover .shadow{
+	display: block;
+}
+.shadow{
+	width: 247px;
+	height: 367px;
+	border: 4px solid #f8f8f8;
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	display: none;
+	z-index: 9;
+}
+.shadow_inner{
+	width: 247px;
+	height: 365px;
+	border: 1px solid #e5e5e5;
+}
+.content{
+	width: 247px;
+	height: 365px;
+	margin: 0 auto;
+	background: #fff;
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+}
+.img_box a{
+	display: block;
+	width: 220px;
+	height: 220px;
+	margin: 10px auto;
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.img_box a img{
+	width: 220px;
+	height: 220px;
+	position: relative;
+	z-index: 1;
+}
+.price_area{
+	width: 220px;
+	margin: 0 auto 3px;
+}
+.price_area * {
+    float: left;
+    display: inline-block;
+}
+.p1{
+    height: 24px;
+    font-size: 16px;
+    color: #e4393c;
+    line-height: 24px;
+}
+.p1 span{
+    font-size: 20px;
+    float: none;
+    vertical-align: baseline;
+    padding-left: 3px;
+}
+.p2{
+    font-size: 0;
+    float: right;
+    line-height: 24px;
+}
+.p2 span{
+	font-size: 14px;
+    font-style: normal;
+    color: #252525;
+    position: relative;
+    top: 1px;
+}
+.p2 i{
+    width: 40px;
+    height: 14px;
+    overflow: hidden;
+    margin-left: 2px;
+    background: url(../images/index/temp/club.png) no-repeat;
+}
+.super_name{
+	display: block;
+	width: 220px;
+	height: 42px;
+	margin: 0 auto 3px;
+	color: #000;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.super_name span{
+	color: #cf010e;
+	vertical-align: baseline;
+}
+.cart_area{
+	width: 220px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.cart_area .cart:hover{
+	text-decoration: none;
+	color: #fff;
+	background: url(../images/list/huabanzi.png) no-repeat -252px -32px;
+    background-color: rgba(0, 0, 0, 0);
+	background-color: #cf010e;
+}
+.cart_area span input{
+	width: 28px;
+	height: 26px;
+	border: 1px solid #dbdbdb;
+	border-radius: 3px;
+	line-height: 26px;
+	text-align: center;
+	margin-right: 2px;
+	float: left;
+	display: inline-block;
+}
+.more_less{
+	width: 16px;
+	height: 28px;
+	border-radius: 3px;
+	float: left;
+	display: inline-block;
+	overflow: hidden;
+	background: url(../images/list/huabanzi.png) no-repeat -185px -138px;
+}
+.increase,.decrease{
+    display: block;
+    width: 16px;
+    height: 14px;
+}
+.cart_area .cart{
+	width: 76px;
+	height: 26px;
+	padding-left: 32px;
+	line-height: 26px;
+	border: 1px solid #ddd;
+	color: #cf010e;
+	margin-left: 8px;
+	float: left;
+	display: inline-block;
+	background: url(../images/list/huabanzi.png) no-repeat -252px -2px;
+}
+

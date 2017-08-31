@@ -5,11 +5,11 @@ require(["config"],function(){
 			//动态加载复制
 			clone_node($(".lay_1_body_right ul li"),9,$(".lay_1_body_right ul"))
 			clone_node($(".lay_1_footer_right_body_inner ul li"),4,$(".lay_1_footer_right_body_inner ul"))
-			clone_node($(".lay_1"),4,$(".mainbox")) 
+//			clone_node($(".lay_1"),4,$(".mainbox")) 
 			function clone_node(tar,howmany,dady){
 				for(var i = 0; i < howmany; i++){
 					tar.clone().appendTo(dady) 
-				}
+				} 
 			}
 			
 		})
@@ -50,7 +50,72 @@ require(["config"],function(){
 					clearInterval(timer);
 			}, 1000);
 		}
-
+		var count = 1
+		//爬楼梯+吸顶
+		var winHeight = $(window).height()
+			var _top = $("#F1").offset().top;
+			var _topx = $("#F5").offset().top;
+			var num;
+			$(window).scroll(function(){
+				var _scroll = $(window).scrollTop()
+				var result = _scroll - (_top - winHeight/2)
+				var resultx = _scroll - (_topx + winHeight)
+				var begin = $("#container").offset().top
+				if(count){
+					if(_scroll > begin)
+					$(".xiding").show()
+					if(_scroll < begin)
+					$(".xiding").hide()
+				}
+				$(".xiding button").click(function(){
+					count = 0 
+					$(".xiding").hide()
+				})
+				console.log(_scroll)
+				console.log(_topx)
+				console.log(resultx)
+				if(resultx >= 0 ){
+					$(".side_menu").fadeOut()
+				}
+				if(result >= 0 && resultx < 0){
+					$(".side_menu").fadeIn()
+				}
+				if(result < 0){
+					$(".side_menu").fadeOut()
+				}
+				
+				$(".lay_1").each(function(index,element){
+					var _topx = $(".lay_1").eq(index).offset().top
+					var resultx = _scroll - (_topx - winHeight/2)
+					if(resultx >= 0){
+					$(".side_menu li").eq(index).children("span").show()
+					.end().siblings().children("span").hide()
+					num = index
+				}
+				})
+				})
+				
+				$(".side_menu li").each(function(index,element){
+					$(this).click(function(){
+						$(this).children("span").show()
+						.end().siblings().children("span").hide()
+						var _topx = $(".lay_1").eq(index).offset().top
+						var _scroll = _topx - winHeight/2
+						$(window).scrollTop(_scroll)
+						
+					})
+				
+					$(this).hover(
+						function(){
+						$(this).children("span").show()
+						},function(){
+							console.log(num)
+							console.log(index)
+							if(!(num === index))
+						$(this).children("span").hide()
+					})
+				})
+		
 		// 模板
  
 		$.ajax({

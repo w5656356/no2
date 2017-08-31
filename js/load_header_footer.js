@@ -8,7 +8,7 @@ define(["jquery","cookie"],function($){
 			console.log(_username)
 			console.log($.cookie("loginUser"))
 			if(_username){	
-				$(data).filter(".login_reg")
+				$(data).find(".login_reg")
 					  .html(`欢迎您:${_username}`).end()
 					  .appendTo(".header")
 			}else{
@@ -38,6 +38,14 @@ define(["jquery","cookie"],function($){
 		success : function(data2){
 				console.log("hhhhhhh")
 				$(data2).appendTo(".footer")
+		}
+	});
+	$.ajax({
+		type : "get",
+		url : "/DET/index.html",
+		success : function(data3){
+				console.log("555555555555555555555555")
+				$(data3).appendTo(".small_main")
 		}
 	});
 })

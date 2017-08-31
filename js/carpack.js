@@ -4,6 +4,11 @@ define(["jquery"],function(){
 	carou($("#container2"),$("#container2 ul"),$("#container2 ul li"),$("#pages2"),false,false)
 	carou($("#container3"),$("#container3 ul"),$("#container3 ul li"),$("#pages3"),false,false)
 	carou($("#container5"),$("#container5 ul"),$("#container5 ul li"),$("#pages5"),false,false)
+	carou($("#container6"),$("#container6 ul"),$("#container6 ul li"),$("#pages5"),false,false)
+	carou($("#container7"),$("#container7 ul"),$("#container7 ul li"),$("#pages5"),false,false)
+	carou($("#container8"),$("#container8 ul"),$("#container8 ul li"),$("#pages5"),false,false)
+	carou($("#container9"),$("#container9 ul"),$("#container9 ul li"),$("#pages5"),false,false)
+	
 	function carou(container,ul,li,pages,boool,neednum,prev,next){
 		var lis = li, 
 			len = lis.length,
@@ -20,7 +25,7 @@ define(["jquery"],function(){
 			lis.eq(len-1).clone(true).insertBefore(lis.first());
 			uls.css("width",liWidth*(len+2) + "px");
 			len += 2
-			console.log(len)
+			console.log(len+"aaaaaaaa")
 			function move(){
 				
 				var _left = nextIndex*-1*liWidth

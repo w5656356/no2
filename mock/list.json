@@ -1,0 +1,101 @@
+[
+	{
+		"left" : {
+			"num" : 4,
+			"pro" : {
+				"id" : 1,
+				"head" : ["热卖推荐","看过此页面用户最终购买","购买了此类商品的用户还浏览","一周销量排行榜"],
+				"imgSRC" : "/images/list/maotai.jpg",
+				"price" : "￥288.00",
+				"title" : "52度贵州茅台集团封藏原浆V80 500ml(六瓶装)",
+				"easy" : "茅台",
+				"title_href" : "/html/detail?maotai=1",
+				"imgSRC_big" : "/images/list/maotaibig.jpg",
+				"price_big" : "728.00", 
+				"price_big_culb" : "￥658.00",
+				"title_big" : "【酒仙自营】43°茅台飞天500ml",
+				"title_sup" : "喜庆铁盒装，礼赠佳品"
+				}
+				}
+	},
+	{
+		"left" : {
+			"num" : 4,
+			"pro" : {
+				"id" : 2,
+				"head" : ["热卖推荐","看过此页面用户最终购买","购买了此类商品的用户还浏览","一周销量排行榜"],
+				"imgSRC" : "/images/list/wuliangye.png",
+				"price" : "￥109.00",
+				"title" : "52°五粮液股份五星级土豪金版500ml",
+				"easy" : "五粮液",
+				"title_href" : "/html/detail?wuliangye=1",
+				"imgSRC_big" : "/images/list/wuliangyebig.jpg",
+				"price_big" : "1228.00", 
+				"price_big_culb" : "￥1068.00",
+				"title_big" : "【五粮液特卖】52°五粮液1618陶瓷瓶500ml",
+				"title_sup" : "喝名酒，享品质生活"
+				}
+				}
+	},
+	{
+		"left" : {
+			"num" : 4,
+			"pro" : {
+				"id" : 3,
+				"head" : ["热卖推荐","看过此页面用户最终购买","购买了此类商品的用户还浏览","一周销量排行榜"],
+				"imgSRC" : "/images/list/luzhoulaojiao.jpg",
+				"price" : "￥88.00",
+				"title" : "52°泸州老窖永盛烧坊陈酿八年铁盒 500ml （2013年）",
+				"easy" : "泸州老窖",
+				"title_href" : "/html/detail?luzhoulaojiao=1",
+				"imgSRC_big" : "/images/list/luzhoulaojiaobig.jpg",
+				"price_big" : "528.00", 
+				"price_big_culb" : "￥468.00",
+				"title_big" : "52°泸州老窖三人炫1000ml*4+三人炫手提袋*2+三人炫陶瓷酒具",
+				"title_sup" : ""
+				}
+				}
+	},
+	{
+		"left" : {
+			"num" : 4,
+			"pro" : {
+				"id" : 4,
+				"head" : ["热卖推荐","看过此页面用户最终购买","购买了此类商品的用户还浏览","一周销量排行榜"],
+				"imgSRC" : "/images/list/limingqishi.png",
+				"price" : "￥288.00",
+				"title" : "黎明骑士2005公爵古堡干红葡萄酒红酒单支装750ml",
+				"easy" : "黎明骑士",
+				"title_href" : "/html/detail?limingqishi=1",
+				"imgSRC_big" : "/images/list/limingqishibig.png",
+				"price_big" : "2528.00", 
+				"price_big_culb" : "￥1468.00",
+				"title_big" : "黎明骑士2009男爵古堡干红葡萄酒红酒整箱6支送醒酒器装750ml*6",
+				"title_sup" : ""
+				}
+				}
+	},
+	{
+		"left" : {
+			"num" : 4,
+			"pro" : {
+				"id" : 5,
+				"head" : ["热卖推荐","看过此页面用户最终购买","购买了此类商品的用户还浏览","一周销量排行榜"],
+				"imgSRC" : "/images/list/rentouma.jpg",
+				"price" : "￥88.00",
+				"title" : "40°人头马天醇XO干邑700ml",
+				"easy" : "人头马",
+				"title_href" : "/html/detail?rentouma=1",
+				"imgSRC_big" : "/images/list/rentoumabig.jpg",
+				"price_big" : "9228.00", 
+				"price_big_culb" : "￥7568.00",
+				"title_big" : "40°法国原装进口洋酒 Louis XIII人头马路易十三干邑白兰地700ml",
+				"title_sup" : ""
+				}
+				}
+	}
+]
+ 
+
+
+
